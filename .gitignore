@@ -11,7 +11,7 @@ __pycache__/
 *.pyd
 *.env
 *.venv
-env/
+env/*
 venv/
 *.egg-info/
 dist/
