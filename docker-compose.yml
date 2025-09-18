@@ -25,6 +25,6 @@ services:
     volumes:
       - ./backend:/app/backend
     working_dir: /app/backend
-    command: ./backend/deploy/start.sh
+    command: chmod +x ./backend/deploy/start.sh && ./backend/deploy/start.sh
     ports:
       - "8083:8000"

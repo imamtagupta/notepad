@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Populars = () => {
     return (  
         <main className="px-4 sm:px-6 py-10 max-w-7xl mx-auto">
