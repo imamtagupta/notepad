@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Blogs = () => {
     return (
@@ -6,7 +7,7 @@ const Blogs = () => {
         <h1 className="text-4xl sm:text-5xl font-extrabold mb-8">POPULAR ARTICLES</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           
-          <a href="#" className="transition transform hover:shadow-lg hover:scale-[1.015] bg-white border border-gray-300 p-4 block">
+          <Link href="/blog/beyond-paas" className="transition transform hover:shadow-lg hover:scale-[1.015] bg-white border border-gray-300 p-4 block">
           <Image 
               src="https://images.unsplash.com/photo-1708101971165-32d20e48d070" 
               alt="Graph" 
@@ -19,9 +20,9 @@ const Blogs = () => {
             <h2 className="text-lg font-bold mb-2">Beyond PaaS - A smarter approach to cloud-native development in 2025</h2>
             <p className="text-sm mb-4">Encore aims to be a flexible alternative to PaaS that lets you own your cloud.</p>
             <span className="text-xs">28 FEB 2025</span>
-          </a>
+          </Link>
         
-          <a href="#" className="transition transform hover:shadow-lg hover:scale-[1.015] bg-white border border-gray-300 p-4 block">
+          <Link href="/blog/encore-ts-performance" className="transition transform hover:shadow-lg hover:scale-[1.015] bg-white border border-gray-300 p-4 block">
           <Image 
               src="https://images.unsplash.com/photo-1609879141928-c7edbf2fbce0" 
               alt="Performance" 
@@ -34,9 +35,9 @@ const Blogs = () => {
             <h2 className="text-lg font-bold mb-2">Encore.ts — 9x faster than Express.js, 3x faster than ElysiaJS & Hono</h2>
             <p className="text-sm mb-4">Combining Node.js with Async Rust for remarkable performance</p>
             <span className="text-xs">17 JUN 2024</span>
-          </a>
+          </Link>
     
-          <a href="#" className="transition transform hover:shadow-lg hover:scale-[1.015] bg-white border border-gray-300 p-4 block">
+          <Link href="/blog/queueing" className="transition transform hover:shadow-lg hover:scale-[1.015] bg-white border border-gray-300 p-4 block">
           <Image 
               src="https://images.unsplash.com/photo-1610036019305-64bd3c04d79a" 
               alt="Queueing" 
@@ -49,7 +50,7 @@ const Blogs = () => {
             <h2 className="text-lg font-bold mb-2">Queueing</h2>
             <p className="text-sm mb-4">An interactive study of queueing strategies</p>
             <span className="text-xs">22 MAY 2024</span>
-          </a>
+          </Link>
     
         </div>
       </main>
